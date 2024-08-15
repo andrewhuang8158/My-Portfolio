@@ -1,119 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-    crossorigin="anonymous"> <!--font awesome-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!--font awesome-->
     <title>Andrew's Portfolio</title>
-</head>
-<body>
-    <header class = "header">
-        <nav>
-            <div><a class = "logo" href="#">AH</a></div>
-            <div class = "hamburger" id = "hamburger">
-                <i class="fas fa-bars"></i>
-            </div>
-            <ul class = "nav-ul" id = nav-ul>
-                <li><a href="https://www.linkedin.com/in/andrewhuang8158/" target="blank">LinkedIn</a></li>
-                <li><a href="#" id="nav-project">Projects</a></li>
-                <li><a href="https://github.com/andrewhuang8158" target="blank">Github</a></li>
-                <li><a href="./Resume_Andrew_Huang.pdf" target="blank">Resume</a></li>
-                <li><a href="#" id="nav-contact">Contact</a></li>
-            </ul>
-        </nav>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div><a class="logo" href="#">AH</a></div>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-ul" id="nav-ul">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/andrewhuang8158/"
+              target="blank"
+              >LinkedIn</a
+            >
+          </li>
+          <li><a href="#" id="nav-project">Projects</a></li>
+          <li>
+            <a href="https://github.com/andrewhuang8158" target="blank"
+              >Github</a
+            >
+          </li>
+          <li><a href="./Resume_Andrew_Huang.pdf" target="blank">Resume</a></li>
+          <li><a href="#" id="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <section class = "about" id="about">
-        <div class ="introduction">
-            <div class= "text-container">
-                <h1 id = intro-h1>I'm Andrew.</h1>
-                <h5 id = intro-h5>I'm a fullstack software engineer.</h5>
-                <h6 id = intro-h6>Scroll down to explore.</h6>
-                <div class = "hello">
-                    <svg class="arrows">
-                    <path class="a1" d="M0 0 L30 32 L60 0"></path>
-                    <path class="a2" d="M0 20 L30 52 L60 20"></path>
-                    <path class="a3" d="M0 40 L30 72 L60 40"></path>
-                  </svg>
-                </div>
-            </div>
+    <section class="about" id="about">
+      <div class="introduction">
+        <div class="text-container">
+          <h1 id="intro-h1">I'm Andrew.</h1>
+          <h5 id="intro-h5">I'm a fullstack software engineer.</h5>
+          <h6 id="intro-h6">Scroll down to explore.</h6>
+          <div class="hello">
+            <svg class="arrows">
+              <path class="a1" d="M0 0 L30 32 L60 0"></path>
+              <path class="a2" d="M0 20 L30 52 L60 20"></path>
+              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class = "project-section" id = "project-section">
-        <div class ="project-container reveal">
-            <h2 class = "project-text">Projects</h2>
-            <div class = "wrapper">
-                <div class = "card" id ="card1">
-                        <img src="./pictures/codebook.jpg" class = "image_angle" alt="">
-                        <div class = "card-container">
-                        <h1 class = "cardhead">Codebook Project</h1>
-                        <p class = "cardpara">A social media website where users can interact with friends and posts... much like Facebook.</p>
-                        <a href="https://group-karj.gitlab.io/module3-project-gamma" target ="blank"><h4 class ="languages cardbtn1">Explore</h4></a>
-                        </div>
-                </div>
-                <div class = "card" id = "card2">
-                    <img src="./pictures/social.jpg" class = "image_angle" alt="">
-                    <div class = "card-container">
-                    <h1 class = "cardhead">Discord Bot</h1>
-                    <p class = "cardpara">A discord music bot with slash commands to play music from youtube given search query. </p>
-                    <a href="" target ="blank"><h4 class ="languages cardbtn1">Explore</h4></a>
-                    </div>
-                </div>
-                <div class = "card" id = "card3">
-                    <img src="./pictures/blog1.jpg" class = "image_angle" alt="">
-                    <div class = "card-container">
-                    <h1 class = "cardhead">CarCar Project</h1>
-                    <p class = "cardpara">A web application to create and view car listings with search-bar feature to filter through the listings.</p>
-                    <a href="https://gitlab.com/andrewhuang8158/project-beta" target ="blank"><h4 class ="languages cardbtn1">Explore</h4></a>
-                    </div>
-                </div>
+    <section class="project-section" id="project-section">
+      <div class="project-container reveal">
+        <h2 class="project-text">Projects</h2>
+        <div class="wrapper">
+          <div class="card" id="card1">
+            <img src="./pictures/mapleimg.png" class="image_angle" alt="" />
+            <div class="card-container">
+              <h1 class="cardhead">Maplestory Dailies Tracker</h1>
+              <p class="cardpara">
+                A tracker for daily objectives in my favorite childhood game -
+                Maplestory
+              </p>
+              <a
+                href="https://maplestory-dailies-trackr.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><h4 class="languages cardbtn1">Explore</h4></a
+              >
             </div>
+          </div>
+          <div class="card" id="card2">
+            <img src="./pictures/go-dutch.jpg" class="image_angle" alt="" />
+            <div class="card-container">
+              <h1 class="cardhead">Calculators and Tools</h1>
+              <p class="cardpara">
+                Tired of paying more than your share when eating out or
+                pot-lucking with friends? I've got you covered.
+              </p>
+              <a
+                href="https://go-dutch-calculator.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><h4 class="languages cardbtn1">Explore</h4></a
+              >
+            </div>
+          </div>
+          <div class="card" id="card3">
+            <img src="./pictures/codebook.jpg" class="image_angle" alt="" />
+            <div class="card-container">
+              <h1 class="cardhead">Codebook Project</h1>
+              <p class="cardpara">
+                A social media website where users can interact with friends and
+                posts... much like Facebook.
+              </p>
+              <a
+                href="https://group-karj.gitlab.io/module3-project-gamma"
+                target="blank"
+                ><h4 class="languages cardbtn1">Explore</h4></a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class = "about-me">
-            <img src="./pictures/prof-pic.png" alt="" class = "about-photo reveal">
-            <div class = "contain">
-                <h1 class = "about-me-heading">About Me</h1>
-                <p class ="about-me-paragraph">
-                   I've always liked hands on activities and creating things myself. From playing with Legos to woodworking and now creating with code, the infinite possibility and design limited only by imagination always enraptured me. I hope to one day create or be a part of something that revolutionizes the world and I think web development is a great place to start.
-
-                   To start my career in the computer sciences and software development, I dabbled in free online sources in coding some of which were The Odin Project and Harvard's CS50. Fascinated with the things I've learned I decided to take a bootcamp with a few friends  While there, I enjoyed collaborating with peers, sharing progress and achievements with groupmates, and most of all, overcoming obstacles. I can now confidently and autonomously code in the frontend and backend.
-
-                    In my free time, I like to go out, explore new places, hike, run, gym, etc. Since I like to try new things, I believe that I have a natural affinity for coding as a lot of it involves new technologies, techniques, and trials and errors. I believe my love for learning and progressing in all avenues of life make me the ideal candidate for software engineering as I continue to tinker and adjust on the fly.</p>
-                <div class = "button-container">
-                <a href="mailto:andrewhuang8158@gmail.com" title = "Send a direct email." class = "hire">Say Hello</a>
-                </div>
-            </div>
+    <section class="about-me">
+      <img src="./pictures/prof-pic.png" alt="" class="about-photo reveal" />
+      <div class="contain">
+        <h1 class="about-me-heading">About Me</h1>
+        <p class="about-me-paragraph">
+          I've always loved hands on activities and creating things myself. From
+          playing with Legos to woodworking and now building applications with
+          code, the infinite possibility and design limited only by imagination
+          always enraptured me. I hope to one day create or be a part of
+          something that revolutionizes the world and I think web development is
+          a great place to start. To start my career in the computer sciences
+          and software development, I dabbled in free online sources in coding
+          some of which were The Odin Project and Harvard's CS50. Fascinated
+          with the things I've learned I decided to take a bootcamp with a few
+          friends. While there, I enjoyed collaborating with peers, sharing
+          progress and achievements with groupmates, and most of all, overcoming
+          obstacles. I can now confidently and autonomously code in the frontend
+          and backend.
+        </p>
+        <p class="about-me-paragraph">
+          In my free time, I like to go out, explore new places, hike, run, gym,
+          etc. Since I like to try new things, I believe that I have a natural
+          affinity for coding as a lot of it involves new technologies,
+          techniques, and trials and errors. I believe my love for learning and
+          progressing in all avenues of life make me the ideal candidate for
+          software engineering as I continue to tinker and adjust on the fly.
+        </p>
+        <div class="button-container">
+          <a
+            href="mailto:andrewhuang8158@gmail.com"
+            title="Send a direct email."
+            class="hire"
+            >Say Hello</a
+          >
+        </div>
+      </div>
     </section>
 
     <section id="contact-section">
-        <div class="container">
-            <form action="https://formsubmit.co/andrewhuang8158@gmail.com" method="POST" id ="contact">
-                <h3>Contact Me</h3>
-                <h4>Leave your information here and I'll get back to you as soon as possible!</h4>
-                  <input placeholder="Name" name = "name" title = "Name" type="text" tabindex="1" required>
-                  <input placeholder="Email Address" name = "email" title ="Email" type="email" tabindex="2" required>
-                  <input placeholder="Phone Number (optional)" title ="Phone Number (optional)" type="tel" tabindex="3" name = "number" >
-                  <input placeholder="Web Site (optional)" title ="Web Site (optional)" type="url" tabindex="4" name = "website">
-                  <textarea placeholder="Message" title ="Message" tabindex="5" name = "message" required></textarea>
-                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-            </form>
-        </div>
+      <div class="container">
+        <form
+          action="https://formsubmit.co/andrewhuang8158@gmail.com"
+          method="POST"
+          id="contact"
+        >
+          <h3>Contact Me</h3>
+          <h4>
+            Leave your information here and I'll get back to you as soon as
+            possible!
+          </h4>
+          <input
+            placeholder="Name"
+            name="name"
+            title="Name"
+            type="text"
+            tabindex="1"
+            required
+          />
+          <input
+            placeholder="Email Address"
+            name="email"
+            title="Email"
+            type="email"
+            tabindex="2"
+            required
+          />
+          <input
+            placeholder="Phone Number (optional)"
+            title="Phone Number (optional)"
+            type="tel"
+            tabindex="3"
+            name="number"
+          />
+          <input
+            placeholder="Web Site (optional)"
+            title="Web Site (optional)"
+            type="url"
+            tabindex="4"
+            name="website"
+          />
+          <textarea
+            placeholder="Message"
+            title="Message"
+            tabindex="5"
+            name="message"
+            required
+          ></textarea>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
 
     <footer>
-        <div class="contact_bar">
-            <a href="https://www.instagram.com/andodo.h/" title = "Instagram" target="blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/andodo.huang/" title = "Facebook" target="blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.linkedin.com/in/andrewhuang8158/" title = "LinkedIn" target="blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/andrewhuang8158" title = "Github" target="blank"><i class="fab fa-github-square"></i></a>
-        </div>
+      <div class="contact_bar">
+        <a
+          href="https://www.instagram.com/andodo.h/"
+          title="Instagram"
+          target="blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/andodo.huang/"
+          title="Facebook"
+          target="blank"
+          ><i class="fab fa-facebook-square"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/andrewhuang8158/"
+          title="LinkedIn"
+          target="blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/andrewhuang8158"
+          title="Github"
+          target="blank"
+          ><i class="fab fa-github-square"></i
+        ></a>
+      </div>
     </footer>
-</body>
-<script src="./script.js" type="text/javascript"></script>
+  </body>
+  <script src="./script.js" type="text/javascript"></script>
 </html>
